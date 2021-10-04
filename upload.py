@@ -22,7 +22,7 @@ with open("oile/3.png", "rb") as file:
     p=json.loads(n)
     images.append(p['data']['url'])
 
-for i in range(20):
+for i in range(10):
     i+=1
     poza="oile/"+str(i)+".png"
     with open(poza, "rb") as file:
